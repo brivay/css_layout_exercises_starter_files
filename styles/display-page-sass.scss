@@ -1,8 +1,17 @@
+/* variables */
+$green: #76d9a3;
+$blue: #59c4bc;
+$gray: #dddfd4;
+$black: #173e43;
+$yellow: #fae596;
+
+
+/* global styles */
 .container {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size:0;
+	font-size: 0;
 }
 
 .box {
@@ -14,25 +23,24 @@
 	height:	200px;
 	width: 50%;
 }
-
 .three, .four, .five {
 	height: 300px;
 	width: 33.33%;
 }
 
-
 .one {
-	background-color: green;
+	background-color: $green;
 }
 .two {
-	background-color: blue;
+	background-color: $blue;
 }
 .three {
-	background-color: gray;
+	background-color: $gray;
 }
 .four {
-	background-color: black;
+	background-color: $black;
 }
 .five {
-	background-color: yellow;
+	background-color: $yellow;
 }
+
