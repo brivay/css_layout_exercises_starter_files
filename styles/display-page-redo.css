@@ -4,37 +4,35 @@
 	margin-right: auto;
 	margin-top: 50px;
 	font-size:0;
-
 }
 
 .box {
 	display: inline-block;
-	border: 5px soild black;
+	border: 1px soild black;
 }
 
-.one, .two {
+.half {
 	height:	200px;
-	width: 50%;
+	width: 50%;	
 }
 
-.three, .four, .five {
+.third {
 	height: 300px;
 	width: 33.33%;
 }
 
-
-.one {
+.green {
 	background-color: green;
 }
-.two {
+.blue {
 	background-color: blue;
 }
-.three {
+.gray {
 	background-color: gray;
 }
-.four {
+.black {
 	background-color: black;
 }
-.five {
+.yellow {
 	background-color: yellow;
 }
